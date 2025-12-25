@@ -6,10 +6,10 @@ subtitle: Use and re-use tons of responsive sections too a main create the perfe
 
 # Maximum 5 items
 list:
-  - title: "Secure keys generated"
-  - title: "Data encrypted"
-  - title: "Blocks linked"
-  - title: "Network validated"
+  - title: "Generate"
+  - title: "Knit/Attach"
+  - title: "Scan"
+  - title: "Update URL"
   - title: "Transactions recorded"
 centerImage: "/images/shapes/section_shape.png"
 ---

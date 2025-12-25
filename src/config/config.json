@@ -1,14 +1,14 @@
 {
   "site": {
-    "title": "Secury",
-    "base_url": "https://secury-astro.vercel.app",
+    "title": "AINKNIT",
+    "base_url": "https://ainknit.com",
     "base_path": "/",
     "trailing_slash": false,
     "favicon": "/images/favicon.png",
     "logo": "/images/logo.png",
     "logo_width": "159",
     "logo_height": "49",
-    "logo_text": "Secury"
+    "logo_text": "AINKNIT"
   },
 
   "settings": {
@@ -20,25 +20,25 @@
 
   "params": {
     "contact_form_action": "#",
-    "copyright": "©{year} All Rights Reserved by [Themefisher](https://themefisher.com/)."
+    "copyright": "©{year} AINKNIT. All Rights Reserved."
   },
 
   "newsletter": {
-    "footer_title": "STAY UP TO DATE",
-    "input_placeholder": "Your Email",
+    "footer_title": "UPDATES",
+    "input_placeholder": "Email",
     "input_action": "#"
   },
 
   "navigation_button": {
     "enable": true,
     "label": "Get Started",
-    "link": "https://themefisher.com/products/secury-astro"
+    "link": "/contact/"
   },
 
   "metadata": {
-    "meta_author": "Themefisher",
+    "meta_author": "AINKNIT",
     "meta_image": "/images/og-image.png",
-    "meta_description": "Security Saas & Startup Template"
+    "meta_description": "Knit QR labels & patches for runway/editorial traffic recovery, brand-domain landing, and dynamic URL expansion."
   },
   "google_tag_manager": {
     "enable": false,
