@@ -1,0 +1,47 @@
+{
+  "site": {
+    "title": "Secury",
+    "base_url": "https://secury-astro.vercel.app",
+    "base_path": "/",
+    "trailing_slash": false,
+    "favicon": "/images/favicon.png",
+    "logo": "/images/logo.png",
+    "logo_width": "159",
+    "logo_height": "49",
+    "logo_text": "Secury"
+  },
+
+  "settings": {
+    "pagination": 8,
+    "summary_length": 70,
+    "news_folder": "news",
+    "events_folder": "events"
+  },
+
+  "params": {
+    "contact_form_action": "#",
+    "copyright": "©{year} All Rights Reserved by [Themefisher](https://themefisher.com/)."
+  },
+
+  "newsletter": {
+    "footer_title": "STAY UP TO DATE",
+    "input_placeholder": "Your Email",
+    "input_action": "#"
+  },
+
+  "navigation_button": {
+    "enable": true,
+    "label": "Get Started",
+    "link": "https://themefisher.com/products/secury-astro"
+  },
+
+  "metadata": {
+    "meta_author": "Themefisher",
+    "meta_image": "/images/og-image.png",
+    "meta_description": "Security Saas & Startup Template"
+  },
+  "google_tag_manager": {
+    "enable": false,
+    "gtm_id": "GTM-XXXXXX"
+  }
+}

@@ -1,0 +1,46 @@
+---
+interface SecurityFeature {
+  title: string;
+  desc: string;
+  logo: string;
+}
+
+interface SecuritySection {
+  title: string;
+  list: SecurityFeature[];
+}
+
+import ServiceSummaryCard from "@/components/ServiceSummaryCard.astro";
+import { getListPage } from "@/lib/contentParser.astro";
+
+const serviceSummaryCards = await getListPage(
+  "serviceSummaryCards",
+  "service-summary-cards"
+);
+
+if (!serviceSummaryCards.data.enable) {
+  return null;
+}
+
+const { list: brandsList, title }: SecuritySection = serviceSummaryCards?.data;
+---
+
+<section class="section">
+  <div class="container">
+    <h2 class="xl:text-h2 text-h2-sm font-normal mb-14">{title}</h2>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-4 gap-5">
+      {
+        brandsList &&
+          brandsList.map(({ title, desc, logo }, index) => (
+            <ServiceSummaryCard
+              title={title}
+              desc={desc}
+              logo={logo}
+              aosDelay={index * 100}
+            />
+          ))
+      }
+    </div>
+  </div>
+</section>

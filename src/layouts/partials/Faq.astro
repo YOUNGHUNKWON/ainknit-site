@@ -1,0 +1,36 @@
+---
+import GradientTitle from "@/components/GradientTitle.astro";
+import { getListPage } from "@/lib/contentParser.astro";
+import Accordion from "@/shortcodes/Accordion";
+
+const sectionData = await getListPage("faq", "faq");
+if (!sectionData.data.enable) {
+  return null;
+}
+
+const { head, title, list } = sectionData.data;
+---
+
+<section class="section">
+  <div class="container">
+    <div class="section-intro text-center">
+      <GradientTitle title={head} data-aos="fade-up-sm" data-aos-delay="100" />
+      <h2 data-aos="fade-up-sm" data-aos-delay="150">{title}</h2>
+    </div>
+    <div
+      class="section-content lg:px-24"
+      data-aos="fade-up-sm"
+      data-aos-delay="200"
+    >
+      {
+        list &&
+          list.length &&
+          list.map((faq) => (
+            <Accordion client:load title={faq.question}>
+              {faq.answer}
+            </Accordion>
+          ))
+      }
+    </div>
+  </div>
+</section>

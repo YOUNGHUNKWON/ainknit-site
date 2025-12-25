@@ -1,0 +1,25 @@
+---
+import Base from "@/layouts/Base.astro";
+import { getListPage } from "@/lib/contentParser.astro";
+import AboutCompany from "@/partials/AboutCompany.astro";
+import CallToAction from "@/partials/CallToAction.astro";
+import InvestorBrands from "@/partials/InvestorBrands.astro";
+import OurTeam from "@/partials/OurTeam.astro";
+import PageHeader from "@/partials/PageHeader.astro";
+
+const company = await getListPage("companyPageCollection", "-index");
+if (company.data.draft) {
+  return Astro.redirect("/404");
+}
+---
+
+<Base {...company.data}>
+  <PageHeader
+    title={company.data.hero.title}
+    description={company.data.hero.description}
+  />
+  <AboutCompany />
+  <InvestorBrands />
+  <OurTeam />
+  <CallToAction />
+</Base>

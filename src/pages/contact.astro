@@ -1,0 +1,18 @@
+---
+import Base from "@/layouts/Base.astro";
+import { getListPage } from "@/lib/contentParser.astro";
+import CallToAction from "@/partials/CallToAction.astro";
+import ContactFormSection from "@/partials/ContactFormSection.astro";
+import SocialLinks from "@/partials/SocialLinks.astro";
+
+const contact = await getListPage("contactPageCollection", "-index");
+if (contact.data.draft) {
+  return Astro.redirect("/404");
+}
+---
+
+<Base {...contact.data}>
+  <ContactFormSection pageHeader={contact.data.pageHeader} />
+  <SocialLinks />
+  <CallToAction />
+</Base>
