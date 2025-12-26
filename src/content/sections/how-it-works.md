@@ -2,7 +2,9 @@
 enable: true
 head: HOW IT WORKS
 title: How AINKNIT Works
-subtitle:브랜드가 원하는 URL을 “편성”하고, 노출을 스캔 트래픽으로 전환합니다. <br> We knit your URL and turn exposure into owned traffic.
+subtitle: |
+  브랜드가 원하는 URL을 “편성”하고, 노출을 스캔 트래픽으로 전환합니다.
+  We knit your URL and turn exposure into owned traffic.
 
 # Maximum 5 items
 list:
