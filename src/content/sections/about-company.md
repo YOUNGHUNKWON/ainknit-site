@@ -1,8 +1,8 @@
 ---
 enable: true
-title: The Next Generation of Blockchain Security.
+title: 니트직물 기반 SMART CODE KNITTING.
 descriptionList:
-  - title: "Secury leverages cutting-edge encryption and blockchain technology to provide industry-leading protection for your sensitive data. Our decentralized network means there's no central point of failure, while our 256-bit encryption keeps your data secure from prying eyes. "
-  - title: "You can trust Secury to be your impenetrable fortress against data breaches. With Secury's advanced AI-driven threat detection, you gain 24/7 security monitoring against cyber attacks. "
-  - title: "Our automated anomaly detection identifies unusual activity in real-time to prevent exploits before they occur. Combine this with our team of expert security analysts, and Secury offers robust protection day and night against both known and zero-day threats. "
+  - title: "브랜드가 원하는 URL을 니트직물 라벨/패치에 ‘편성’합니다. 앱 없이 카메라로 스캔됩니다. "
+  - title: "TV·매거진·런웨이·룩북 노출을 스캔으로 전환해, 브랜드 도메인(자사몰/캠페인) 트래픽으로 회수합니다. "
+  - title: "URL 업데이트(변경)은 MVP로 제공 중이며, 정품/인증 및 DPP 대응까지 확장 로드맵을 지원합니다. "
 ---

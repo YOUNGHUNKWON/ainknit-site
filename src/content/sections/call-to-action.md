@@ -1,13 +1,15 @@
 ---
 enable: true
-head: "PEACE OF MIND IS OUR #1 PRIORITY"
-title: "Start securing from today"
+head: "QUOTE REQUEST"
+title: "견적 문의를 남겨주세요"
 image: "/images/call-to-action.png"
-description: "With Secury's advanced AI-driven threat detection, you gain 24/7 security monitoring against cyber attacks."
+description: |
+  니트직물 라벨/패치 적용 목적(런웨이/룩북/리테일), 원하는 랜딩(URL), 규격/소재/배색을 알려주시면 제안드립니다.
+  영업일 기준 24–48시간 내 회신합니다. (hiknit3118@naver.com)
 button:
   enable: true
-  label: "Get Started For Free"
-  link: "/contact"
+  label: "견적 문의"
+  link: "/contact/?type=quote"
 shapes:
   - image: "/images/shapes/cta_shape.png"
   - image: "/images/shapes/cta_shape_1.png"

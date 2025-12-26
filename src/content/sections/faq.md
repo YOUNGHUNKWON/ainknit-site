@@ -1,18 +1,20 @@
 ---
 enable: true
-head: GOT QUESTIONS?
-title: Frequently Asked Questions
+head: FAQ
+title: 자주 묻는 질문
 
 # FAQ list
 list:
-  - question: "What blockchain technology does Secury use?"
-    answer: "We utilize a decentralized, public blockchain that is secured using industry-leading cryptographic encryption. This provides transparency, immunity to outages, and ironclad security."
-  - question: "How does Secury protect my data?"
-    answer: "Secury uses military-grade encryption to secure your data. Our decentralized network ensures that your data is safe from cyber attacks and data breaches."
-  - question: "How does Secury detect threats?"
-    answer: "Secury uses advanced AI-driven threat detection to monitor your network 24/7. Our team of expert security analysts ensures that your data is safe from cyber attacks."
-  - question: "How can I get started with Secury?"
-    answer: "Getting started with Secury is easy! Simply contact us to schedule a consultation with one of our security experts. We'll work with you to develop a customized security solution that meets your needs."
-  - question: "What industries does Secury serve?"
-    answer: "Secury serves a wide range of industries, including finance, healthcare, government, and more. Our security solutions are tailored to meet the unique needs of each industry, ensuring that your data is safe and secure."
+  - question: "앱 설치 없이 스캔이 가능한가요?"
+    answer: "네. 일반적으로 스마트폰 카메라 기능으로 QR 스캔이 가능합니다. (브랜드는 별도 앱 설치 없이 접근성을 높일 수 있습니다.)"
+  - question: "권장 사이즈는 어떻게 되나요?"
+    answer: "제품 부착용은 2×2cm 수준부터, TV·매거진 등 원거리 노출은 4×4cm 이상을 권장합니다. 적용 환경에 맞춰 제안드립니다."
+  - question: "스캔 후 브랜드 도메인으로 연결되나요?"
+    answer: "네. QR 스캔 후 브랜드가 원하는 도메인/랜딩 페이지로 연결합니다. 캠페인 목적(룩북, 제품 상세, 이벤트)에 맞게 설계합니다."
+  - question: "URL 업데이트(변경)는 어떻게 제공되나요?"
+    answer: "현재 MVP 단계로 제공 중이며, 운영 편의성은 계속 고도화 중입니다. 시즌/캠페인 전환에 맞춰 랜딩을 업데이트하는 방향으로 확장합니다."
+  - question: "라벨/패치 외에 원단(의류)에 통합도 가능한가요?"
+    answer: "처음은 라벨/패치 솔루션으로 시작하고, 이후 원단/의류로 확장 가능한 구조를 목표로 합니다."
+  - question: "정품/인증 용도로도 사용할 수 있나요?"
+    answer: "가능합니다. 스캔을 통해 제품 정보/가이드/인증 흐름을 만들 수 있으며, 향후 DPP 대응까지 고려한 로드맵을 제공합니다."
 ---
