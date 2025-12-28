@@ -9,9 +9,9 @@ subtitle: |
 
 # Maximum 5 items
 list:
-  - title: "1) URL & 랜딩 정의"
+  - title: "1) URL&랜딩"
   - title: "2) 코드 설계"
-  - title: "3) Knit / Attach (라벨·패치 생산)"
+  - title: "3) Knit/Attach (라벨·패치 생산)"
   - title: "4) Scan → Brand-domain landing"
   - title: "5) URL 업데이트 (MVP, 고도화 중)"
 centerImage: "/images/shapes/section_shape.png"

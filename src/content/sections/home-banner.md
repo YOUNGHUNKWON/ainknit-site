@@ -1,7 +1,7 @@
 ---
 enable: true
 head: "AINKNIT / Knit QR Label & Patch"
-title: "패션 라벨/패치에 코드를 ‘편성’해 런웨이·에디토리얼 노출을 브랜드 채널 트래픽으로 회수합니다."
+title: "니팅 기술로 QR 코드를 편성하여 제품 원단에 직접 정보를 통합합니다. 데이터 저장 매채로 다양하게 활용하세요."
 image:
   src: "/images/shapes/homepage_hero.png"
   alt: "AINKNIT hero"
