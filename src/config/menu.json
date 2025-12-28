@@ -52,7 +52,7 @@
     "company": [
       {
         "name": "About Us",
-        "url": "/about"
+        "url": "/company"
       },
       {
         "name": "Contact",
@@ -70,7 +70,7 @@
     "others": [
       {
         "name": "Privacy Policy",
-        "url": "/privacy"
+        "url": "/privacy-policy"
       },
       {
         "name": "Terms & Conditions",

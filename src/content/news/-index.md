@@ -1,5 +1,5 @@
 ---
-title: "Secury - News"
+title: "AINKNIT - Insights"
 meta_title: ""
 description: "this is meta description"
 image: ""

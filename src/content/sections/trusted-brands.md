@@ -1,6 +1,6 @@
 ---
 enable: true
-title: "Backed By"
+title: "Backed By (업데이트 예정)"
 list:
   - brand: 1,
     logo: "/images/brands/1.svg"

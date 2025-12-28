@@ -1,7 +1,7 @@
 ---
 enable: true
-title: "Backed by Top Investors"
-description: "Use and re-use tons of responsive sections too a main create the perfect layout. Sections are firmly of organized into the perfect start."
+title: "Production-ready (생산 기반)"
+description: "Shima Seiki 29대 · 15+년 납품 경험 기반으로, 브랜드 감도에 맞춘 니트직물 Smart Code 라벨/패치를 제안합니다."
 investorList:
   - brand: 1,
     logo: "/images/brands/1.svg"
